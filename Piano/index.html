@@ -19,30 +19,73 @@
         <div class="header">
           <span class="header-name">Playable Piano </span>
           <span class="volume-written">Volume: </span>
-          <input type="range" class="volume" id="volume-slider" />
+          <input
+            type="range"
+            class="volume"
+            id="volume-slider"
+            min="0"
+            max="1"
+            value="0.5"
+            step="any"
+          />
           <span class="showkeys">Show Keys</span>
           <input type="checkbox" class="show-keys" id="keys-visible" />
         </div>
         <div class="piano-keys">
-          <div class="piano keys-white"><span class="alpha">A</span></div>
-          <div class="piano keys-black"><span class="alphaB">W</span></div>
-          <div class="piano keys-white"><span class="alpha">S</span></div>
-          <div class="piano keys-black"><span class="alphaB">E</span></div>
-          <div class="piano keys-white"><span class="alpha">D</span></div>
-          <div class="piano keys-white"><span class="alpha">F</span></div>
-          <div class="piano keys-black"><span class="alphaB">T</span></div>
-          <div class="piano keys-white"><span class="alpha">G</span></div>
-          <div class="piano keys-black"><span class="alphaB">Y</span></div>
-          <div class="piano keys-white"><span class="alpha">H</span></div>
-          <div class="piano keys-black"><span class="alphaB">U</span></div>
-          <div class="piano keys-white"><span class="alpha">J</span></div>
-          <div class="piano keys-white"><span class="alpha">K</span></div>
-          <div class="piano keys-black"><span class="alphaB">O</span></div>
-          <div class="piano keys-white"><span class="alpha">L</span></div>
-          <div class="piano keys-black"><span class="alphaB">P</span></div>
-          <div class="piano keys-white"><span class="alpha">;</span></div>
+          <div class="piano keys-white" data-set="A">
+            <span class="alpha">A</span>
+          </div>
+          <div class="piano keys-black" data-set="W">
+            <span class="alphaB">W</span>
+          </div>
+          <div class="piano keys-white" data-set="S">
+            <span class="alpha">S</span>
+          </div>
+          <div class="piano keys-black" data-set="E">
+            <span class="alphaB">E</span>
+          </div>
+          <div class="piano keys-white" data-set="D">
+            <span class="alpha">D</span>
+          </div>
+          <div class="piano keys-white" data-set="F">
+            <span class="alpha">F</span>
+          </div>
+          <div class="piano keys-black" data-set="T">
+            <span class="alphaB">T</span>
+          </div>
+          <div class="piano keys-white" data-set="G">
+            <span class="alpha">G</span>
+          </div>
+          <div class="piano keys-black" data-set="Y">
+            <span class="alphaB">Y</span>
+          </div>
+          <div class="piano keys-white" data-set="H">
+            <span class="alpha">H</span>
+          </div>
+          <div class="piano keys-black" data-set="U">
+            <span class="alphaB">U</span>
+          </div>
+          <div class="piano keys-white" data-set="J">
+            <span class="alpha">J</span>
+          </div>
+          <div class="piano keys-white" data-set="K">
+            <span class="alpha">K</span>
+          </div>
+          <div class="piano keys-black" data-set="O">
+            <span class="alphaB">O</span>
+          </div>
+          <div class="piano keys-white" data-set="L">
+            <span class="alpha">L</span>
+          </div>
+          <div class="piano keys-black" data-set="P">
+            <span class="alphaB">P</span>
+          </div>
+          <div class="piano keys-white" data-set=";">
+            <span class="alpha">;</span>
+          </div>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
