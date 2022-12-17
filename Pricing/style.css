@@ -14,17 +14,17 @@ body{
 
 .header
 {
-   position: relative;
-   left:600px;
+    position: relative;
+    left:600px;
     font-size: 25px;
     font-weight: 500;
 }
 .yearly
 {
-  margin-top: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .annually
 {
