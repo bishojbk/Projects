@@ -42,7 +42,7 @@ body{
     top: 19.5rem;
     left:27rem;
     cursor: pointer;
-    transition: 0.6s ease;4
+    transition: 0.6s ease;
 }
 .circle:checked{
     left: 32.5rem;
