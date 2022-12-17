@@ -1,0 +1,50 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #455c57;
+}
+.container
+{
+    height: 25rem;
+    width:25rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:50%;
+}
+#checkbox
+{
+    position: relative;
+    top:20rem;
+    left:36rem;
+    appearance: none; 
+}
+#checkbox {
+    position: relative;
+    border: 1px solid white;
+    height: 4rem;
+    width: 9rem;
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+}
+.circle
+{   
+    appearance: none;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 3rem;
+    width: 3rem;
+    top: 19.5rem;
+    left:27rem;
+    cursor: pointer;
+    transition: 0.6s ease;4
+}
+.circle:checked{
+    left: 32.5rem;
+    background-color: aliceblue;
+}
