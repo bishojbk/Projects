@@ -65,13 +65,14 @@ body{
     position: relative;
     display: flex;
     margin-top: 50px;
+    left:-50px;
 }
 
 .card1
 {
     background-color:white;
     height:480px;
-    width: 250px;
+    width: 280px;
     position: relative;;
     left:300px;
     text-align: center;
