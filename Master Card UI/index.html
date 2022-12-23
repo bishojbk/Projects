@@ -4,7 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MasterCard</title>
+    <title>Payment Details</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <a href="#">Your Order</a>
+        <a href="#">Shipping Details</a>
+        <a href="#" class="hover">Payment Details</a>
+        <a href="#">Confirmation</a>
+      </nav>
+      <hr />
+      <div class="details">
+        <div class="card">
+          <div class="header">VISA</div>
+          <div class="logo"><img src="chip.png" alt="" /></div>
+          <div class="number">1456 2278 6565 1287</div>
+          <div class="footer">
+            <div class="name">EJR Nepal</div>
+            <div class="date">12/23</div>
+          </div>
+          <div class="payment-details">
+            <div class="header-name">Payment Details</div>
+            <div class="name-on-card">Name on Card</div>
+            <input type="text" name="" id="name-on-card" placeholder="EJR Nepal" />
+            <hr />
+            <div class="card-number">Card Number</div>
+            <input
+              type="text"
+              name=""
+              id="card-number"
+              placeholder="1456 2020 4545 6565"
+              class="number-in-card"
+            />
+            <hr />
+            <div class="validity">
+              <div class="valid">Valid Through</div>
+              <input
+                type="text"
+                name=""
+                id="valid"
+                placeholder="02/22"
+                class="valid-input"
+              />
+              <div class="CVV">CVV</div>
+              <input type="text" name="" id="cvv" placeholder="011" class="cvv" />
+              <button>PAY $450.00</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
 </html>
